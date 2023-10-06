@@ -1,0 +1,9 @@
+#descriptionid {
+    color: red;
+}
+.desc1 {
+    color: green;
+}
+div > p {
+    color: blue;
+}

@@ -1,0 +1,72 @@
+/* p {
+    color: blueviolet;
+} */
+
+/* .description {
+    color: red;
+}
+
+#desc {
+    color: yellow;
+} */
+
+/* p {
+    font-weight: normal;
+    color: brown;
+}
+
+* {
+    color: green;
+} */
+
+/* section > :nth-child(1) {
+    color: blue;
+} */
+
+/* section > p + p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    color: aqua;
+} */
+/* section > p {
+    color: brown;
+    font-size: bold;
+} */
+
+/* p + a {
+    color: violet;
+} */
+
+/* * =. contains
+^ => startswith
+$ => endswith */
+
+[id*="desc"]{
+    color: orange;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 500;
+}
+
+.div1 {
+    /* background-color: blue; */
+    border-width: 5px;
+    border-style: dotted;
+    border-color: red;
+    padding: 10px;
+    margin: 10px;
+    /* height: max-content; */
+    width: max-content;
+}
+
+.div2 {
+    /* background-color: blue; */
+    border-width: 5px;
+    border-style: dotted;
+    border-color: red;
+    padding: 10px;
+    margin: 10px;
+    /* height: max-content; */
+    width: min-content;
+}
